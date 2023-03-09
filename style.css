@@ -15,6 +15,10 @@
 body {
   font-size: 1.6rem;
   background: #f8fafc;
+  background-image: url(./assets/456536.jpg);
+  background-repeat: no-repeat;
+
+
 
   /*centralizar a caixa no meio*/
   height: 100vh;
@@ -32,6 +36,8 @@ main {
   border-radius: 1.6rem;
   display: grid;
   grid: 6.4rem;
+    background-color: transparent;
+      backdrop-filter: blur(100px);
 }
 
 .section h2 {
@@ -44,6 +50,10 @@ main {
   display: flex;
   gap: 1.6rem;
   align-items: center;
+}
+.conversor h2{
+  color: #ffff;
+ 
 }
 
 /*money-wepper*/
@@ -63,7 +73,7 @@ main {
 
 .money-wrapper:hover,
 .money-wrapper:has(:focus) {
-  outline: 0.25rem solid #7c3aed;
+  outline: 0.25rem solid #ff8800;
 }
 
 .amount {
@@ -131,6 +141,7 @@ li:hover,
 .fi.fis {
   font-family: 2.4rem;
   border-radius: 50%;
+  
 }
 
 /*UL*/
@@ -161,6 +172,9 @@ li {
 .cambio .wrapper {
   margin-top: 2.4rem;
 }
+.cambio h2{
+  color: #ffff;
+}
 
 .tooltip {
   background-color: white;
@@ -189,7 +203,7 @@ li {
 }
 .chart-controls button:hover,
 .chart-controls button.active{
-  background-color: #7c3aed;
+  background-color: #69676b;
   color: white;
   border-radius: 999px;
   padding: .4rem .8rem;

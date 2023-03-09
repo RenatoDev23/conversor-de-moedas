@@ -11,7 +11,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Conversor de moeda</title>
+    <title>Conversor de moedas</title>
     <link rel="stylesheet" href="./style.css" />
 
     <link
@@ -23,6 +23,7 @@
     <main>
       <section class="conversor">
         <h2>Conversor de moedas</h2>
+        <br>
         <div class="wrapper">
           <div class="money-wrapper">
             <input type="text" class="amount" value="$1.000" />
@@ -40,9 +41,11 @@
               </ul>
             </div>
           </div>
+          
           <div class="middle">
             <img src="./assets/arrows-exchange.svg" alt="trocar moeda">
           </div>
+         
          <div class="money-wrapper">
             <input 
             readonly
@@ -51,6 +54,7 @@
             <div class="dropdow">
               <div class="selected">
                 <span class="fi fi-br fis"></span>
+                
                 BRL
               </div>
               <ul>
@@ -87,5 +91,6 @@
     </main>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="./script.js"></script>
+    <script src="./country-lis.js"></script>
   </body>
 </html>

@@ -52,6 +52,7 @@ const options = {
     curve: "straight",
   },
   yaxis: {
+    
     min: 5,
     tickAmount: 4,
     labels: {
@@ -79,7 +80,7 @@ const options = {
       stops: [0, 90, 100],
     },
   },
-  colors: ["#7C3AED"],
+  colors: ["#000"],
   tooltip: {
     custom: function ({ series, seriesIndex, dataPointIndex, w }) {
       return `<div class="tooltip">
@@ -98,3 +99,5 @@ const options = {
 
 const chart = new ApexCharts(document.querySelector("#chart"), options)
 chart.render()
+
+
